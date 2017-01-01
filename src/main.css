@@ -3,6 +3,7 @@
 
 .navbar {
   margin-bottom: 0;
+  background: #ccc;
 }
 
 /* CUSTOMIZED CAROUSEL
@@ -29,6 +30,10 @@
   left: 0;
   min-width: 100%;
   height: 240px;
+}
+
+.item ul li {
+  display: inline-block;
 }
 
 @media (min-width: 768px) {
